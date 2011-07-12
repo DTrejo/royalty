@@ -1,0 +1,32 @@
+{
+  "name": "royalty",
+  "subdomain": "royalty",
+  "scripts": {
+    "start": "server.js"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.4.9"
+  },
+  "author": "David Trejo <dtrejo@cs.brown.edu> (http://dtrejo.com/)",
+  "description": "Royalty — Develop like a king.",
+  "homepage": "https://github.com/dtrejo/royalty",
+  "repository": {
+    "url": ""
+  },
+  "main": "server.js",
+  "dependencies": {
+    "now": "*",
+    "express": "*",
+    "colors": "0.5.0",
+    "markdown": "*"
+  },
+  "devDependencies": {
+    "node-dev": "0.1.8",
+    "vogue-dtrejo": "0.2.1"
+  },
+  "bin" : {
+    "reloadcss" : "reloadcss.sh",
+    "runserver": "runserver.sh"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv=Content-type content="text/html; charset=utf-8">
+  <title>Royalty — Code like a king!</title>
+  <link rel="stylesheet" href="/css/aristo.css" type="text/css">
+  <link rel="stylesheet" href="/css/royalty.css" type="text/css">
+
+</head>
+<body>
+  <p id="nojs">Please enable javascript.</p>
+
+  <h1><a href="/">Welcome, Your Highness.</a></h1>
+  <p>I live to serve.</p>
+
+  <form action="/" method="post" id="royalForm">
+    <label for="input">Name Of Peon</label><br>
+    <input type="text" name="input" value="little johnny" id="input"
+      placeholder="little johnny">
+
+    <button id="button" class="button green">Bow Down!</button>
+  </form>
+
+  <pre id="readme"></pre>
+
+  <!-- defer loads scripts in order + async. Does not block DOM rendering -->
+  <script src="/nowjs/now.js" defer></script>
+  <script src="/js/jquery.js" defer></script>
+  <script src="/js/underscore.js" defer></script>
+  <script src="/js/royalty.js" defer></script>
+
+  <!-- for dev -->
+  <script src="http://localhost:8001/vogue-client.js"></script>
+</body>
+</html>
