@@ -25,7 +25,7 @@ luxury. Just like a Ferrari, or a silken royal purple cape.
 
 Copy and paste these commands into your terminal:
 
-    git clone git://github.com/dtrejo/royalty.git
+    git clone git://github.com/DTrejo/royalty.git
     cd royalty
     npm install .
 
