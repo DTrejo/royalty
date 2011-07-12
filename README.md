@@ -32,12 +32,11 @@ Copy and paste these commands into your terminal:
     #
     # At your service.
     #
-    ./runserver
-    ./reloadcss
+    ./runserver.sh &
+    ./reloadcss.sh &
 
     # see it in action
     open http://localhost:8000/
-
 
 #### For extreme luxury:
 Visit http://growl.info/, download disk image, then Extras > growlnotify >
