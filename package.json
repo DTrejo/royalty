@@ -4,7 +4,7 @@
   "scripts": {
     "start": "server.js"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "node": "0.4.9"
   },
@@ -25,8 +25,8 @@
     "node-dev": "0.1.8",
     "vogue-dtrejo": "0.2.1"
   },
-  "bin" : {
-    "reloadcss" : "reloadcss.sh",
+  "bin": {
+    "reloadcss": "reloadcss.sh",
     "runserver": "runserver.sh"
   }
 }
