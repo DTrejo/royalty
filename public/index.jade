@@ -1,0 +1,44 @@
+extends __layout
+
+block head
+  title Royalty | Code like a king!
+  //- link(rel="stylesheet" href="/css/aristo.css" type="text/css")
+  //- link(rel="stylesheet" href="/css/royalty.css" type="text/css")
+  style.
+    html.gss-ready {
+      opacity: 1;
+    }
+    html {
+      opacity: 0;
+    }
+
+block body
+  .content
+    h1
+      a(href="/") Welcome, Your Highness.
+    h3.
+      I live to serve.
+
+    <form action="/" method="post" id="royalForm">
+    <label for="input">Name Of Peon</label><br>
+    <input type="text" name="input" value="little johnny" id="input" placeholder="little johnny">
+    <button id="button" class="button green">Bow Down!</button>
+    </form>
+
+block bodyscripts
+  script.
+    window.GSS_CONFIG = {
+      worker: "/js/worker.js",
+      fractionalPixels: false,
+    }
+  script(src="/js/gss.js")
+  style(type="text/gss").
+    .content {
+      height: == ::[intrinsic-height];
+      width: == ::[intrinsic-width];
+      center-x: == ::window[center-x];
+      center-y: == ::window[center-y];
+    }
+
+  script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+  script(src="/js/royalty.bundle.js")
